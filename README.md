@@ -23,7 +23,7 @@ The Genshin Lyre Bot is a desktop application that simulates typing of songs for
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/genshin-lyre-bot.git
+    git clone https://github.com/AnxeloK/genshin-lyre-bot.git
     cd genshin-lyre-bot
     ```
 
@@ -71,14 +71,14 @@ The Genshin Lyre Bot is a desktop application that simulates typing of songs for
   - Each character in a song string typically corresponds to a specific note or action:
     - `A` might represent one note.
     - `B` might represent another note.
-    - `.` (dot) might represent a pause or short delay.
+    - `.` (dot) might represent a pause or short delay of 0.1 seconds.
   
 - **Example:**
   - For a song string like `"A B C . D E F G"`, the bot would:
     - Press the key for note `A`.
     - Press the key for note `B`.
     - Press the key for note `C`.
-    - Wait (pause).
+    - Wait 0.1 seconds.
     - Press the key for note `D`.
     - Press the key for note `E`.
     - Press the key for note `F`.
@@ -102,9 +102,5 @@ The Genshin Lyre Bot is a desktop application that simulates typing of songs for
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any issues or suggestions, please contact [your-email@example.com](mailto:your-email@example.com).
 
 Happy playing!
